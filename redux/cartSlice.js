@@ -1,7 +1,7 @@
-// /redux/cartSlice.js
+// cartSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
-export const cartSlice = createSlice({
+const cartSlice = createSlice({
   name: 'cart',
   initialState: [],
   reducers: {
@@ -9,11 +9,11 @@ export const cartSlice = createSlice({
       state.push(action.payload);
     },
     removeFromCart: (state, action) => {
-      return state.filter(item => item.id !== action.payload.id);
-    },
-  },
+      // 確保這裡的邏輯正確
+      return state.filter(item => item.id !== action.payload); 
+    }
+  }
 });
 
 export const { addToCart, removeFromCart } = cartSlice.actions;
-
 export default cartSlice.reducer;

@@ -1,11 +1,18 @@
 // /pages/cart.js
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Head from 'next/head';
+import { removeFromCart } from '../redux/cartSlice'; // Ensure this action exists in your redux setup
 
 export default function Cart() {
   const cart = useSelector(state => state.cart);
+  const dispatch = useDispatch();
 
   const totalAmount = cart.reduce((total, item) => total + item.price, 0);
+
+  // Function to handle removing item from cart
+  const handleRemove = (itemId) => {
+    dispatch(removeFromCart(itemId));
+  };
 
   return (
     <div>
@@ -53,6 +60,12 @@ export default function Cart() {
                   <p>Price: ${item.price.toFixed(2)}</p>
                 </div>
                 <img src={item.image} alt={item.title} className="img-fluid" style={{ maxHeight: '50px' }} />
+                <button
+                  className="btn btn-danger ms-3"
+                  onClick={() => handleRemove(item.id)} // Pass the item ID to handle remove
+                >
+                  Remove
+                </button>
               </div>
             </li>
           ))}
