@@ -10,7 +10,7 @@ Welcome to the Trimble Store, a full-stack e-commerce application designed to pr
 - **Secure Authentication:** Ensuring user security with JWT-based authentication, allowing safe access to accounts for logging in, registering, and making purchases.
 
 ## Front End Excellence ✨
-Leveraging the power of React, Next.js, and Tailwind CSS, Trimble Store offers a modern and visually appealing user experience. The responsive design adapts beautifully across devices, providing customers with a consistent shopping journey whether they are on desktop or mobile.
+Leveraging the power of React, Next.js, and Bootstrap, Trimble Store offers a modern and visually appealing user experience. The responsive design adapts beautifully across devices, providing customers with a consistent shopping journey whether they are on desktop or mobile.
 
 ## Back End Reliability 🛠️
 Built with Node.js and Express, the backend is designed for speed and scalability. MongoDB handles our data, providing efficient data storage and retrieval, while user actions are protected with state-of-the-art security measures, ensuring data integrity and privacy.
