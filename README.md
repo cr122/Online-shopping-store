@@ -4,6 +4,14 @@
 
 Welcome to the Trimble Store, a full-stack e-commerce application designed to provide an engaging and seamless shopping experience. Built using cutting-edge technologies, the platform showcases a variety of products in an easy-to-navigate layout, bringing together aesthetics and functionality.
 
+## Technologies Used ⚙️
+
+- **Next.js & React**: For building a dynamic and responsive user interface.
+- **Node.js & Express**: Server-side framework for backend functionality.
+- **MongoDB**: NoSQL database for efficient and scalable data storage.
+- **JWT Authentication**: Ensures secure access to user accounts and data protection.
+- **Bootstrap**: For additional styling and UI components.
+
 ## Key Features
 - **User-Friendly Interface:** A sleek and responsive design welcomes users to explore our featured products with ease. The homepage highlights popular items with intuitive "Add to Cart" functionality.
 - **Robust Shopping Cart Management:** Effortlessly manage your shopping cart with real-time updates, providing a smooth and dynamic experience as you browse through your favorite items.
@@ -34,19 +42,6 @@ The Login page is designed for a simple and secure user authentication process. 
 
 
 The Registration page allows new users to create an account by entering a username and password. The straightforward layout ensures that the registration process is quick and user-friendly, making it easy for newcomers to join the Trimble Store community.
-
-## Technologies Used ⚙️
-
-- **Next.js & React**: For building a dynamic and responsive user interface.
-- **Node.js & Express**: Server-side framework for backend functionality.
-- **MongoDB**: NoSQL database for efficient and scalable data storage.
-- **Tailwind CSS**: For a sleek, modern, and responsive design.
-- **JWT Authentication**: Ensures secure access to user accounts and data protection.
-- **Bootstrap**: For additional styling and UI components.
-- **SWR (Stale-While-Revalidate)**: To handle data fetching and caching strategies.
-- **Jotai**: State management for managing UI and application state seamlessly.
-
-These technologies work together to create a robust, secure, and efficient e-commerce platform that enhances the user experience while maintaining high performance and reliability.
 
 Explore the Trimble Store and discover a world where every product is just a click away!
 
