@@ -23,14 +23,15 @@ The Shopping Cart page provides a clear and concise view of the selected items. 
 
 ### 🔑 Login Page
 
-![image](https://github.com/user-attachments/assets/2b29331b-4e90-4b85-85f5-2df15740f868)
+![image](https://github.com/user-attachments/assets/47d88826-0f1d-4689-948e-052a8c94f268)
 
 
 The Login page is designed for a simple and secure user authentication process. Users can enter their username and password to access their accounts. The minimalistic design focuses on functionality and ease of use, ensuring a smooth login experience.
 
 ### 📝 Registration Page
 
-![image](https://github.com/user-attachments/assets/8ee04183-3bb7-4347-a0a6-303100a030b9)
+![image](https://github.com/user-attachments/assets/64f53ee7-b927-4a35-9503-fbcafaef1bce)
+
 
 The Registration page allows new users to create an account by entering a username and password. The straightforward layout ensures that the registration process is quick and user-friendly, making it easy for newcomers to join the Trimble Store community.
 
