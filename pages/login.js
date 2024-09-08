@@ -14,7 +14,7 @@ export default function Login() {
     try {
       const response = await axios.post('/api/users/login', { username, password });
       alert(response.data.message);
-      router.push('/');  // 这里重定向到主页面
+      router.push('/'); 
     } catch (err) {
       setError(err.response.data.message);
     }
