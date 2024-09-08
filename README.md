@@ -15,35 +15,22 @@ Leveraging the power of React, Next.js, and Tailwind CSS, Trimble Store offers a
 ## Back End Reliability 🛠️
 Built with Node.js and Express, the backend is designed for speed and scalability. MongoDB handles our data, providing efficient data storage and retrieval, while user actions are protected with state-of-the-art security measures, ensuring data integrity and privacy.
 
-Explore the Trimble Store and discover a world where every product is just a click away!
-
-# 🛒 Trimble Store - Your One-Stop Shop for Everything!
-
-![image](https://github.com/user-attachments/assets/5c43053e-768b-4d58-b8f5-f1d14fe72e3c)
-
-Welcome to the Trimble Store, a full-stack e-commerce application designed to provide an engaging and seamless shopping experience. Built using cutting-edge technologies, the platform showcases a variety of products in an easy-to-navigate layout, bringing together aesthetics and functionality.
-
-## Key Features in Focus 🌟
-
-- **Shopping Cart Management**: Easily add, view, and remove products from the cart with real-time price updates.
-- **User Authentication**: Secure login and registration system with JWT-based authentication to protect user data.
-- **Product Listing and Details**: Display popular and featured products with detailed descriptions, ratings, and pricing.
-
 ### 🛒 Shopping Cart Overview
 
-![Shopping Cart](https://github.com/user-attachments/assets/shopping-cart-image-url)
+![image](https://github.com/user-attachments/assets/ff8b0b17-2b6b-41c7-a908-d050e1e65906)
 
 The Shopping Cart page provides a clear and concise view of the selected items. Each product is listed with its name, price, and a thumbnail image, along with a 'Remove' button to easily delete items from the cart. The total price is displayed prominently at the bottom, allowing users to keep track of their purchases in real-time.
 
 ### 🔑 Login Page
 
-![Login Page](https://github.com/user-attachments/assets/login-image-url)
+![image](https://github.com/user-attachments/assets/2b29331b-4e90-4b85-85f5-2df15740f868)
+
 
 The Login page is designed for a simple and secure user authentication process. Users can enter their username and password to access their accounts. The minimalistic design focuses on functionality and ease of use, ensuring a smooth login experience.
 
 ### 📝 Registration Page
 
-![Registration Page](https://github.com/user-attachments/assets/register-image-url)
+![image](https://github.com/user-attachments/assets/8ee04183-3bb7-4347-a0a6-303100a030b9)
 
 The Registration page allows new users to create an account by entering a username and password. The straightforward layout ensures that the registration process is quick and user-friendly, making it easy for newcomers to join the Trimble Store community.
 
